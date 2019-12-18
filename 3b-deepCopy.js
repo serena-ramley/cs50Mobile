@@ -28,4 +28,9 @@ function deepCopy(obj) {
 const o4 = deepCopy(o)
 
 o.obj.key = 'new key!'
-console.log(o.obj.key)
+
+// o.obj.key:  new key!
+console.log("o.obj.key: ", o.obj.key)
+
+// o4.obj.key:  key
+console.log("o4.obj.key: ", o4.obj.key)
