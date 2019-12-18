@@ -40,3 +40,6 @@ const o3 = Object.assign({}, o)
 When printing an object combined with another message, use commas and not +
 console.log("My object: ", o)
 
+# 3b-deepCopy.js
+
+For every key in an object, if the val is also an object, recursively try to deep copy this nested object until a non-object value is reached If a val is not an object, copy it into the keys of a new object. Once all of the keys have been iterated through, return the new object
