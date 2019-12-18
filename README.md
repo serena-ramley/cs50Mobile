@@ -10,9 +10,13 @@ https://www.w3schools.com/js/js_type_conversion.asp
 
 # 2-objects.js
 3 ways to edit values in objects include:
-o.key = value
+
+n o.key = value
+
 o[key] = value
+
 key:value
+
 https://coderwall.com/p/p5cf5w/different-ways-of-creating-an-object-in-javascript
 
 
