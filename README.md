@@ -29,4 +29,14 @@ key:value
 
 https://coderwall.com/p/p5cf5w/different-ways-of-creating-an-object-in-javascript
 
+# 3a-objectMutation.js
+
+Copy an object my reference:
+const o2 = o
+
+Copy an object by value:
+const o3 = Object.assign({}, o)
+
+When printing an object combined with another message, use commas and not +
+console.log("My object: ", o)
 
