@@ -38,4 +38,4 @@ console.log("My object: ", o)
 
 # 3b-deepCopy.js
 
-For every key in an object, if the val is also an object, recursively try to deep copy this nested object until a non-object value is reached If a val is not an object, copy it into the keys of a new object. Once all of the keys have been iterated through, return the new object
+Create a new, empty object. For every key in an inputted object, if the val is also an object, recursively try to deep copy this nested object until a non-object value is reached. Else, if a val is not an object, copy it into the keys of the new object. Once all of the keys have been iterated through, return the new object
