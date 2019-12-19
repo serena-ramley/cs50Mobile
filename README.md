@@ -10,10 +10,6 @@ String(x)
 
 x.toString()
 
-x.toExponential()
-
-x.parseFloat()
-
 Implicit typecasting can be achieved through modifier operations such as:
 x + ""
 https://www.w3schools.com/js/js_type_conversion.asp
