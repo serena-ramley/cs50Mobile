@@ -44,7 +44,7 @@ Create a new, empty object. For every key in an inputted object, if the val is a
 
 ## Lecture 2
 
-### closures.js
+### 1-closures.js
 A closure is an inner function that has access to the outer (enclosing) function’s variables
 https://www.w3schools.com/js/js_function_closures.asp
 https://dmitripavlutin.com/simple-explanation-of-javascript-closures/
