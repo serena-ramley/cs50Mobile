@@ -3,7 +3,7 @@ Following the CS50 Mobile Development with React Native Curriculum
 
 This course is free to audit at https://courses.edx.org/courses/course-v1:HarvardX+CS50M+Mobile/course/
 
-# Lecture 1
+## Lecture 1
 
 ### 1-typecasting.js
 Explicit typecasting can be achieved through methods such as:
