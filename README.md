@@ -69,7 +69,14 @@ https://www.w3schools.com/js/js_function_closures.asp
 https://dmitripavlutin.com/simple-explanation-of-javascript-closures/
 
 ### 2-iife.js
-Immediately invoked function expression
+Immediately invoked function expressions (IIFEs) run immediately upon declaration, and don't become part of the global object.
+
+(function () {
+
+    statements
+    
+})();
+
 https://flaviocopes.com/javascript-iife/
 
 ### 3-firstClassFunctions.js
