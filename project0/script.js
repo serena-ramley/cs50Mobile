@@ -5,10 +5,10 @@ const classNames = {
   TODO_DELETE: 'todo-delete',
 }
 
-const list = document.getElementById('todo-list')
-const itemCountSpan = document.getElementById('item-count')
-const uncheckedCountSpan = document.getElementById('unchecked-count')
+var list = document.getElementById('todo-list')
+var itemCountSpan = document.getElementById('item-count').innerHTML
+var uncheckedCountSpan = document.getElementById('unchecked-count').innerHTML
 
 function newTodo() {
-  alert('New TODO button clicked!')
+  document.getElementById("item-count").innerHTML = ++itemCountSpan
 }
