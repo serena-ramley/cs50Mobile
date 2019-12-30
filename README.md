@@ -129,3 +129,11 @@ Bind specifies what 'this' is, and returns a function which can be invoked later
 Apply & Call invoke the function immediately. When using apply, the parameter must be placed in an array. Call can either use a parameter or an array of parameters
 
 https://www.codingame.com/playgrounds/9799/learn-solve-call-apply-and-bind-methods-in-javascript
+
+## Project 0
+
+A basic TODO app.
+
+References used:
+
+https://www.w3schools.com/jsref/met_document_getelementbyid.asp
