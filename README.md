@@ -99,3 +99,17 @@ JavaScript is a single-threaded, synchronous language. A function that takes a r
 
 ### 6-stack.js
 An event loop checks if there's anything on the stack. If not, it checks the function queue. If there's something in the function queue, it gets added to the stack (e.g. setTimeout API calls). APIs are handled by browser and function queue will add it to stack when stack is ready
+
+### 7-overflow.js
+Infinitely calling a recursive function can lead to a stack overflow error
+
+### 8-callbacks.js
+A callback is a function that is to be executed after another function has finished running, e.g.
+https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced
+
+### 9-promises.js
+Promises (then/catch statements) are more readable than nested callbacks.
+https://javascript.info/promise-basics
+
+### 10-authPromises.js
+An example of promises using user login authentication as a case example.
