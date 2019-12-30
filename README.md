@@ -3,6 +3,13 @@ Following the CS50 Mobile Development with React Native Curriculum
 
 This course is free to audit at https://courses.edx.org/courses/course-v1:HarvardX+CS50M+Mobile/course/
 
+Version Control in VS Code: https://code.visualstudio.com/docs/editor/versioncontrol
+
+Frequently used terminal commands:
+git pull
+git commit filename.js -m "Message"
+git push
+
 ## Lecture 1
 
 ### 1-typecasting.js
