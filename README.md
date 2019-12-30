@@ -7,11 +7,17 @@ Version Control in VS Code: https://code.visualstudio.com/docs/editor/versioncon
 
 Frequently used terminal commands:
 
+git add filename.js
+
 git pull
 
 git commit filename.js -m "Message"
 
 git push
+
+node
+
+.exit
 
 
 ## Lecture 1
