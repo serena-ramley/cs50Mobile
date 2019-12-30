@@ -113,3 +113,9 @@ https://javascript.info/promise-basics
 
 ### 10-authPromises.js
 An example of promises using user login authentication as a case example.
+
+#### 11-authAsyncAwait.js
+An example of await using user login authentication as a case example.
+Await allows asynchronous functions to be written as if they were synchronous, but they are still running asynchronously.
+Await is NOT compatible with Internet Explorer
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await 
