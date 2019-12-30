@@ -6,9 +6,13 @@ This course is free to audit at https://courses.edx.org/courses/course-v1:Harvar
 Version Control in VS Code: https://code.visualstudio.com/docs/editor/versioncontrol
 
 Frequently used terminal commands:
+
 git pull
+
 git commit filename.js -m "Message"
+
 git push
+
 
 ## Lecture 1
 
