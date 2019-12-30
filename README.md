@@ -89,3 +89,13 @@ Filter will take a list of type A and return a list of type A (possibly of small
 Reduce will take a list of type A and return a single value.
 
 https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d
+
+### 4-hof.js
+
+An example with map as a unique function instead of using the built-in map function
+
+### 5-async.js
+JavaScript is a single-threaded, synchronous language. A function that takes a really long time to run can cause a page to become unresponsive. JavaScript has functions that act asynchronously, e.g. setTimeout
+
+### 6-stack.js
+An event loop checks if there's anything on the stack. If not, it checks the function queue. If there's something in the function queue, it gets added to the stack (e.g. setTimeout API calls). APIs are handled by browser and function queue will add it to stack when stack is ready
