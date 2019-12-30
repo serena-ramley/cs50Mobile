@@ -105,10 +105,12 @@ Infinitely calling a recursive function can lead to a stack overflow error
 
 ### 8-callbacks.js
 A callback is a function that is to be executed after another function has finished running, e.g.
+
 https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced
 
 ### 9-promises.js
 Promises (then/catch statements) are more readable than nested callbacks.
+
 https://javascript.info/promise-basics
 
 ### 10-authPromises.js
@@ -118,4 +120,12 @@ An example of promises using user login authentication as a case example.
 An example of await using user login authentication as a case example.
 Await allows asynchronous functions to be written as if they were synchronous, but they are still running asynchronously.
 Await is NOT compatible with Internet Explorer
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await 
+
+### 12-this.js
+'this' refers to an object that's set at the creation of a new execution context (function invocation)
+Bind specifies what 'this' is, and returns a function which can be invoked later
+Apply & Call invoke the function immediately. When using apply, the parameter must be placed in an array. Call can either use a parameter or an array of parameters
+
+https://www.codingame.com/playgrounds/9799/learn-solve-call-apply-and-bind-methods-in-javascript
