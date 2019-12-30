@@ -69,5 +69,23 @@ https://www.w3schools.com/js/js_function_closures.asp
 https://dmitripavlutin.com/simple-explanation-of-javascript-closures/
 
 ### 2-iife.js
-Immediately invoked function expression
+Immediately invoked function expressions (IIFEs) run immediately upon declaration, and don't become part of the global object.
+
+(function () {
+
+    statements
+    
+})();
+
 https://flaviocopes.com/javascript-iife/
+
+### 3-firstClassFunctions.js
+First class functions can be assigned to variables, passed as arguments to functions, or returned from a function. Map, filter and reduce are examples of first class functions.
+
+Map will take a list of type A and return a list of type B
+
+Filter will take a list of type A and return a list of type A (possibly of smaller size)
+
+Reduce will take a list of type A and return a single value.
+
+https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d
