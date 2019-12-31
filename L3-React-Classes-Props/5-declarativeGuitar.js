@@ -1,3 +1,4 @@
+/*
 const strings = ['E', 'A', 'D', 'G', 'B', 'E']
 
 function Guitar() {
@@ -7,3 +8,4 @@ function Guitar() {
         </Guitar>
     )
 }
+*/
