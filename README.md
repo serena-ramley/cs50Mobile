@@ -63,6 +63,8 @@ Create a new, empty object. For every key in an inputted object, if the val is a
 
 ## Lecture 2
 
+ES6 is the standard governing JavaScript, whereas JavaScript is the language itself
+
 ### 1-closures.js
 A closure is an inner function that has access to the outer (enclosing) function’s variables
 https://www.w3schools.com/js/js_function_closures.asp
@@ -134,6 +136,71 @@ https://www.codingame.com/playgrounds/9799/learn-solve-call-apply-and-bind-metho
 
 A basic TODO app.
 
-References used:
-
 https://www.w3schools.com/jsref/met_document_getelementbyid.asp
+
+## Lecture 3
+
+### 1-set.js
+    /* Classes vs instances
+     * - classes syntax introduced in ES6
+     *    - simplifies defining complex objects with their own prototypes
+     * Date is a class
+     * const d = new Date () is an instance of the Date class
+     */
+
+    /* Methods vs static methods vs properties
+     * A method is a function that can be invoked on any of the instances
+     * A static method is not dependent on a particular instance of the class
+     * Date.now() is a static method attached to class
+     * d.toString() is a method
+     * properties are values attached to particular instances of a class
+     */
+
+    /* new, constructor, extends, super
+     * new is used to create an instance of a class
+      * constructor is a method to be invoked to create a new instance of a class
+      * extends allows you to create a class that inherits methods from a base class
+      * super() is used to call the parent class constructor
+      * super.someMethod is used to call the parent class' method.
+      * The child class may have its own version of the same method,
+      * with the same types of inputs & outputs (overriding)
+     */
+https://css-tricks.com/what-is-super-in-javascript/
+
+### 7-declarativeSlide.js
+Imperative code declares step-by-step how to complete a task
+Declarative code simply states what you want done
+Declarative code is more readable and therefore more maintainable.
+However, if large data sets will be processed, imperative code may be preferable to control for faster performance.
+For-loops are faster than the native JavaScript map/filter/reduce methods
+https://codeburst.io/imperative-vs-declarative-javascript-8b5e45a602dd
+https://github.com/dg92/Performance-Analysis-JS
+
+### 11-reactStateful.js
+React uses states, for example:
+
+    class App extends React.Component {
+
+        constructor(props) {
+            super(props)
+            this.state = {
+                count: 0
+            }
+        }
+
+        // methods here
+
+        render() {
+               return (
+                <div style={styles}>
+                    <div>
+                        <button onClick={() => this.increaseCount()}>Increase</button>
+                    </div>
+                <h2>{this.state.count}{'\u2728'}</h2>
+              </div>
+               )
+           }
+
+    // initialize variable(s)
+
+    render(<App count={count++}/>, document.getElementById('root'))
