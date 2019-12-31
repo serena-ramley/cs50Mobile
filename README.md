@@ -140,7 +140,7 @@ https://www.w3schools.com/jsref/met_document_getelementbyid.asp
 
 ## Lecture 3
 
-# 7-declarativeSlide.js
+### 7-declarativeSlide.js
 Imperative code declares step-by-step how to complete a task
 Declarative code simply states what you want done
 Declarative code is more readable and therefore more maintainable.
@@ -148,3 +148,31 @@ However, if large data sets will be processed, imperative code may be preferable
 For-loops are faster than the native JavaScript map/filter/reduce methods
 https://codeburst.io/imperative-vs-declarative-javascript-8b5e45a602dd
 https://github.com/dg92/Performance-Analysis-JS
+
+### 11-reactStateful.js
+React uses states, for example:
+
+class App extends React.Component {
+
+    constructor(props) {
+        super(props)
+        this.state = {
+            count: 0
+        }
+    }
+    
+    // methods here
+
+    render() {
+           return (
+            <div style={styles}>
+                <div>
+                    <button onClick={() => this.increaseCount()}>Increase</button>
+                </div>
+            <h2>{this.state.count}{'\u2728'}</h2>
+          </div>
+           )
+       }
+
+// initialize variable(s)
+render(<App count={count++}/>, document.getElementById('root'))
