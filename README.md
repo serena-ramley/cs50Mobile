@@ -63,6 +63,8 @@ Create a new, empty object. For every key in an inputted object, if the val is a
 
 ## Lecture 2
 
+ES6 is the standard governing JavaScript, whereas JavaScript is the language itself
+
 ### 1-closures.js
 A closure is an inner function that has access to the outer (enclosing) function’s variables
 https://www.w3schools.com/js/js_function_closures.asp
@@ -134,6 +136,15 @@ https://www.codingame.com/playgrounds/9799/learn-solve-call-apply-and-bind-metho
 
 A basic TODO app.
 
-References used:
-
 https://www.w3schools.com/jsref/met_document_getelementbyid.asp
+
+## Lecture 3
+
+# 7-declarativeSlide.js
+Imperative code declares step-by-step how to complete a task
+Declarative code simply states what you want done
+Declarative code is more readable and therefore more maintainable.
+However, if large data sets will be processed, imperative code may be preferable to control for faster performance.
+For-loops are faster than the native JavaScript map/filter/reduce methods
+https://codeburst.io/imperative-vs-declarative-javascript-8b5e45a602dd
+https://github.com/dg92/Performance-Analysis-JS
