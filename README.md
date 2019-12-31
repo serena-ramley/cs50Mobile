@@ -162,7 +162,8 @@ https://www.w3schools.com/jsref/met_document_getelementbyid.asp
       * extends allows you to create a class that inherits methods from a base class
       * super() is used to call the parent class constructor
       * super.someMethod is used to call the parent class' method.
-      * The child class may have its own version of the same method, with the same types of inputs & outputs (overriding)
+      * The child class may have its own version of the same method,
+      * with the same types of inputs & outputs (overriding)
      */
 https://css-tricks.com/what-is-super-in-javascript/
 
