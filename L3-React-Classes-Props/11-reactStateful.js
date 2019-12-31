@@ -32,6 +32,9 @@ class App extends React.Component {
         // setState is called and batched asynchronously
         // so any line that uses this.state will see the original state
         this.setState({count: this.state.count + 1})
+        
+        // This would change the state
+        //this.setState(prevState => ({count: prevState.count + 1}))
     }
    
     render() {
