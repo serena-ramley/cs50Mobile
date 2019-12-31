@@ -140,6 +140,31 @@ https://www.w3schools.com/jsref/met_document_getelementbyid.asp
 
 ## Lecture 3
 
+### 1-set.js
+    /* Classes vs instances
+     * - classes syntax introduced in ES6
+     *    - simplifies defining complex objects with their own prototypes
+     * Date is a class
+     * const d = new Date () is an instance of the Date class
+     */
+
+    /* Methods vs static methods vs properties
+     * A method is a function that can be invoked on any of the instances
+     * A static method is not dependent on a particular instance of the class
+     * Date.now() is a static method attached to class
+     * d.toString() is a method
+     * properties are values attached to particular instances of a class
+     */
+
+    /* new, constructor, extends, super
+     * new is used to create an instance of a class
+      * constructor is a method to be invoked to create a new instance of a class
+      * extends allows you to create a class that inherits methods from a base class
+      * super() is used to call the parent class constructor
+      * super.someMethod is used to call the parent class' method.
+      * The child class may have its own version of the same method, with the same types of inputs & outputs (overriding)
+     */
+
 ### 7-declarativeSlide.js
 Imperative code declares step-by-step how to complete a task
 Declarative code simply states what you want done
