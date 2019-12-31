@@ -164,6 +164,7 @@ https://www.w3schools.com/jsref/met_document_getelementbyid.asp
       * super.someMethod is used to call the parent class' method.
       * The child class may have its own version of the same method, with the same types of inputs & outputs (overriding)
      */
+https://css-tricks.com/what-is-super-in-javascript/
 
 ### 7-declarativeSlide.js
 Imperative code declares step-by-step how to complete a task
