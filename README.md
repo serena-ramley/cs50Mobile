@@ -152,27 +152,28 @@ https://github.com/dg92/Performance-Analysis-JS
 ### 11-reactStateful.js
 React uses states, for example:
 
-class App extends React.Component {
+    class App extends React.Component {
 
-    constructor(props) {
-        super(props)
-        this.state = {
-            count: 0
+        constructor(props) {
+            super(props)
+            this.state = {
+                count: 0
+            }
         }
-    }
-    
-    // methods here
 
-    render() {
-           return (
-            <div style={styles}>
-                <div>
-                    <button onClick={() => this.increaseCount()}>Increase</button>
-                </div>
-            <h2>{this.state.count}{'\u2728'}</h2>
-          </div>
-           )
-       }
+        // methods here
 
-// initialize variable(s)
-render(<App count={count++}/>, document.getElementById('root'))
+        render() {
+               return (
+                <div style={styles}>
+                    <div>
+                        <button onClick={() => this.increaseCount()}>Increase</button>
+                    </div>
+                <h2>{this.state.count}{'\u2728'}</h2>
+              </div>
+               )
+           }
+
+    // initialize variable(s)
+
+    render(<App count={count++}/>, document.getElementById('root'))
