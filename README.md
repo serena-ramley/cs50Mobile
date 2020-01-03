@@ -20,6 +20,15 @@ node
 .exit
 
 
+## Create a React App
+
+Setup instructions:
+https://www.youtube.com/watch?v=00kXjx9k3Os
+
+In the desired folder in the command line, type the following, where my-react-app is the name of the app:
+
+    npx create-react-app my-react-app
+
 ## Lecture 1
 
 ### 1-typecasting.js
