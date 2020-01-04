@@ -29,6 +29,13 @@ In the desired folder in the command line, type the following, where my-react-ap
 
     npx create-react-app my-react-app
 
+Then run:
+
+    cd my-app
+    npm start
+
+Edit the file and changes will appear in the local host that pops up
+
 ## Lecture 1
 
 ### 1-typecasting.js
