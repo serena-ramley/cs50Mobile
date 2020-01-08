@@ -220,3 +220,9 @@ React uses states, for example:
     // initialize variable(s)
 
     render(<App count={count++}/>, document.getElementById('root'))
+
+## React
+
+After this point, decided to learn React for Web Development instead of React Native for Mobile. For Projects in ReactJS, see:
+
+github.com/serena-ramley/ReactGallery
